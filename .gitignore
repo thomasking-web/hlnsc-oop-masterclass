@@ -1,0 +1,14 @@
+# GitIgnore 
+
+# C#
+*.suo
+obj/
+bin/
+
+
+# Python
+__pycache__/
+
+# TypeScript
+node_modules/
+dist/

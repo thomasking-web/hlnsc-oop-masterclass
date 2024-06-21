@@ -1,0 +1,27 @@
+
+{
+	"name": "Node.js & TypeScript",
+	"image": "mcr.microsoft.com/devcontainers/typescript-node:1-22-bookworm",
+	"features": {
+		"ghcr.io/devcontainers/features/dotnet:2": {
+			"version": "8.0"
+		},
+		"ghcr.io/devcontainers/features/python:1": {
+			"installTools": true,
+			"version": "latest"
+		},
+		"ghcr.io/devcontainers-community/npm-features/typescript:1": {
+			"version": "latest"
+		}
+	},
+	"customizations": {
+		"vscode": {
+			"extensions": [
+				"aaron-bond.better-comments",
+				"ms-dotnettools.csharp",
+				"formulahendry.code-runner",
+				"ms-python.python"
+			]
+		}
+	}
+}
