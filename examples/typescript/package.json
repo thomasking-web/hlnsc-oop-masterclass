@@ -1,0 +1,11 @@
+{
+  "name": "typescript-oop-example",
+  "version": "1.0.0",
+  "description": "",
+  "main": "dist/index",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Thomas Elston-King",
+  "license": "ISC"
+}
