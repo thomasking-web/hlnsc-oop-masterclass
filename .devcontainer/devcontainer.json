@@ -20,8 +20,10 @@
 				"aaron-bond.better-comments",
 				"ms-dotnettools.csharp",
 				"formulahendry.code-runner",
-				"ms-python.python"
+				"ms-python.python",
+				"tomoki1207.pdf"
 			]
 		}
-	}
+	},
+	"postCreateCommand": "apt-get update && apt-get upgrade -y"
 }
